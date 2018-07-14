@@ -1,0 +1,3 @@
+# Referenced at /Users/wkjie/Desktop/passbox/PassBox/build/intermediates/manifests/full/debug/AndroidManifest.xml:19
+-keep class com.boguan.passbox.app.MyApplication { <init>(...); }
+

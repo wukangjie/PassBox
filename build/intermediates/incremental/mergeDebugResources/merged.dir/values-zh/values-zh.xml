@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="jazzy_effects">
+        <item>STANDARD </item>
+        <item>GROW </item>
+        <item>CARDS </item>
+        <item>CURL </item>
+        <item>WAVE </item>
+        <item>FLIP </item>
+        <item>FLY </item>
+        <item>REVERSE_FLY </item>
+        <item>HELIX </item>
+        <item>FAN  </item>
+        <item>TILT  </item>
+        <item>ZIPPER  </item>
+        <item>FADE  </item>
+        <item>TWIRL  </item>
+        <item>SLIDE_IN  </item>
+    </string-array>
+    <string name="about_author">作者邮箱</string>
+    <string name="about_author_mail">mail@zengdexing.com</string>
+    <string name="about_setting_list">设定</string>
+    <string name="about_source">源代码</string>
+    <string name="about_source_open_failed">未安装网页浏览器，打开失败</string>
+    <string name="about_version">当前版本</string>
+    <string name="action_about_us">关 于</string>
+    <string name="action_add_password">添 加</string>
+    <string name="action_exit">退 出</string>
+    <string name="action_feedback">意见反馈</string>
+    <string name="action_import_and_export">密码导入导出</string>
+    <string name="action_jazzy_effect">列表特效</string>
+    <string name="action_jazzy_effect_introduction">设置列表滑动时的动画特效，当保存的密码多余5条时，才能看到明显的效果</string>
+    <string name="action_jazzy_effect_toast">密码太少，多保存几个再试试？</string>
+    <string name="action_login_password">修改解锁图案</string>
+    <string name="action_more">设置</string>
+    <string name="action_my_collection">我的收藏</string>
+    <string name="action_save">保存</string>
+    <string name="activity_title_eidt_password">解锁图案</string>
+    <string name="add_password_group_cancle">取 消</string>
+    <string name="add_password_group_hint">输入分组名</string>
+    <string name="add_password_group_sure">确 定</string>
+    <string name="add_password_name_hint">输入您的账号</string>
+    <string name="add_password_note_hint">记录备注信息:</string>
+    <string name="add_password_password_hint">输入您的密码</string>
+    <string name="add_password_save_no_data">标题不可为空</string>
+    <string name="add_password_title_hint">输入标题(必须)</string>
+    <string name="alert_delete_message">删除后不可恢复，您确定吗？</string>
+    <string name="app_name">PassBox</string>
+    <string name="auto_kuaipan_content">那么,你拥有网盘账号么?</string>
+    <string name="center_title">全部</string>
+    <string name="cloud_baidu_name">Baidu</string>
+    <string name="cloud_dropbox_name">DropBox</string>
+    <string name="cloud_kuaipan_name">Kuaipan</string>
+    <string name="cloud_need_other_title">这里没有你想要的网盘? 请告诉我们。</string>
+    <string name="cloud_register_guide">没有?那注册一个吧</string>
+    <string name="cloud_xiaomi_name">Xiaomi</string>
+    <string name="common_sure">确 定</string>
+    <string name="copy">复制</string>
+    <string name="copy_name">复制账号到剪贴板</string>
+    <string name="copy_name_toast">已复制账号到剪贴板</string>
+    <string name="copy_password">复制密码到剪贴板</string>
+    <string name="copy_password_toast">已复制密码到剪贴板</string>
+    <string name="copyright_description">Copyright © 2015–2016 fenrir-tec.com.\nAll Rights Reserved.</string>
+    <string name="delete">删除</string>
+    <string name="delete_password_add">添加分组</string>
+    <string name="delete_password_cancle">取 消</string>
+    <string name="delete_password_group_message">将删除\"%s\"分组下的所有密码，不可恢复，你确定删除吗？</string>
+    <string name="delete_password_group_title">删除密码分组</string>
+    <string name="delete_password_sure">确 定</string>
+    <string name="dialog_declare_header">尊敬的用户, 您只有在同意下面的协议时才能使用云端同步的功能。</string>
+    <string name="dialog_declare_title">您是否授权PassBox访问您的个人网盘?</string>
+    <string name="dialog_failed_txt">操作失败，请稍后重试！</string>
+    <string name="dialog_network_error_txt">当前无网络连接，请先连接网络！</string>
+    <string name="edit">修改</string>
+    <string name="export_dialog_attention_to_sdcard">请您知道：\n1. 导出文件以文本形式保存，没有经过任何加密。请务必注意文件的安全！\n2. 导出的文件保存在SD卡 \"MyPassword/\" 目录下。\n3. 您可以使用第三方软件为导出文件加密。</string>
+    <string name="export_dialog_attention_to_skydrive">请您知道：\n1. 导出文件以文本形式保存，没有经过任何加密。请务必注意文件的安全！\n2. 导出的文件保存在金山快盘根目录下。\n3. 您可以使用第三方软件为导出文件加密。</string>
+    <string name="export_dialog_cancle">暂不导出</string>
+    <string name="export_filename">yyy-MM-dd HH-mm-ss</string>
+    <string name="export_ing">正在导出，请稍候…</string>
+    <string name="export_no_sdcard">SD卡不可用</string>
+    <string name="export_sdcard_btn_txt">导出到SD卡</string>
+    <string name="export_skydrive_btn_txt">导出到网盘</string>
+    <string name="export_successful">我的密码导出成功，密码保存文件名为：%s</string>
+    <string name="export_to_sd">导出到SD卡</string>
+    <string name="export_to_skydrive">导出到网盘</string>
+    <string name="feedback_hint">我的成长离不开您的支持</string>
+    <string name="feedback_send">发 送</string>
+    <string name="feedback_send_failed">发送失败，请稍候再试</string>
+    <string name="feedback_sending">正在发送，请稍候…</string>
+    <string name="feedback_thanks">非常感谢您的反馈</string>
+    <string name="hour_ago">%d小时前</string>
+    <string name="i_known">我知道了</string>
+    <string name="import_chiose_file">选择要导入的文件</string>
+    <string name="import_file_failed">文件已损坏，密码导入失败！</string>
+    <string name="import_file_successs">导入成功，本次一共导入%d个密码。</string>
+    <string name="import_form_sd">从SD卡导入</string>
+    <string name="import_ing">正在导入\"%s\"，请稍候…</string>
+    <string name="import_sdcard_btn_txt">从SD卡导入</string>
+    <string name="import_search_failed_to_sdcard">没有搜索到\"mp\"文件，请确认SD卡根目录或者是\"/MyPassword\"目录下是否存在\"mp\"文件。</string>
+    <string name="import_search_failed_to_skydrive">没有搜索到\"mp\"文件，请确认网盘根目录或者是\"/MyPassword\"目录下是否存在\"mp\"文件。</string>
+    <string name="import_search_file_to_sdcard">正在搜索SD卡上的\"mp\"文件,请稍候…</string>
+    <string name="import_search_file_to_skydrive">正在搜索网盘上的\"mp\"文件,请稍候…</string>
+    <string name="import_skydrive_btn_txt">从网盘导入</string>
+    <string name="import_sure">确 定</string>
+    <string name="isTop">置顶</string>
+    <string name="just">刚刚</string>
+    <string name="label_auto_kuaipan">同步</string>
+    <string name="label_export_txt">导出</string>
+    <string name="label_import_txt">导入</string>
+    <string name="law_declare_content">任何使用PassBox产品的用户均应仔细阅读本声明，用户可选择不使用本产品，用户使用本产品的行为将被视为对本声明全部内容的认可。 除PassBox注明之服务条款外，其他一切因使用PassBox产品而引致之任何意外、疏忽、合约毁坏、诽谤、版权或知识产权侵犯及其所造成的损失，PassBox概不负责，亦不承担任何法律责任。</string>
+    <string name="law_declare_title">免责声明</string>
+    <string name="lock_pattern_error">图案错误</string>
+    <string name="login_kuaipan_btn">YES</string>
+    <string name="login_kuaipan_btn_txt">请先登录快盘</string>
+    <string name="login_kuaipan_checkbox_txt">同意同步到网盘</string>
+    <string name="login_kuaipan_ingore">SKIP</string>
+    <string name="main_center_title_close">社交 ∨</string>
+    <string name="main_center_title_open">社交 ∧</string>
+    <string name="minute_ago">%d分钟前</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="no">否</string>
+    <string name="no_password_tips">还没有保存密码\n点击右上角的\"+\"添加几个吧</string>
+    <string name="option_agree">授 权</string>
+    <string name="option_deny">拒 绝</string>
+    <string name="package_name">com.boguan.passbox</string>
+    <string name="passbox_solgan_pain_spot">您现在还在别人家的服务器上\n存放您的私密吗？</string>
+    <string name="passbox_solgan_title">您的专属云端密码保险箱</string>
+    <string name="password">密码:</string>
+    <string name="password_group">分组</string>
+    <string name="password_group_add">添加分组</string>
+    <string name="password_group_default_name">默认分组</string>
+    <string name="password_group_delete_group">删除分组</string>
+    <string name="password_group_merge">合并分组到</string>
+    <string name="password_group_merge_error">没有分组可合并</string>
+    <string name="password_group_merge_loading">读取数据中，请稍候…</string>
+    <string name="password_group_nodelete_group">该分组不可删除</string>
+    <string name="password_group_title">密码分组</string>
+    <string name="password_group_update_group_name">修改分组名</string>
+    <string name="password_nomao">密码</string>
+    <string name="privacy_declare_content">下面的声明是PassBox产品的隐私保护制度：
+\n   1. 不在本产品的服务器上存储您的任何数据;
+\n   2. 您的数据只在您知道并同意的情况下存储在您的个人网盘上;
+\n   3. 不搜集有关用户或访问者的任何个人信息；
+\n   4. 不会与第三方共享统计报告；
+\n   5. PassBox在防止敏感信息丢失或误用方面拥有标准的安全措施；
+\n   6. 不使用 Cookie 跟踪任何个人信息;</string>
+    <string name="privacy_declare_title">隐私声明</string>
+    <string name="search_hint">请输入搜索的标题名称</string>
+    <string name="search_label">search_password</string>
+    <string name="search_result">搜索结果</string>
+    <string name="set_lock_pattern_auth">请输入原解锁图案</string>
+    <string name="set_lock_pattern_auth_error">图案错误，请重试</string>
+    <string name="set_lock_pattern_auth_ok">认证通过</string>
+    <string name="set_lock_pattern_first_message">亲爱的用户，您好！第一次使用软件，为了安全，您需要绘制一个解锁图案用于登录</string>
+    <string name="set_lock_pattern_first_step">请绘制解锁图案</string>
+    <string name="set_lock_pattern_first_step_tips">图案已记录</string>
+    <string name="set_lock_pattern_first_sure">确 定</string>
+    <string name="set_lock_pattern_second_step">请再次绘制解锁图案</string>
+    <string name="set_lock_pattern_second_step_error">图案与上次不一致，请重新绘制</string>
+    <string name="set_lock_pattern_second_step_tips">设置成功，请牢记您的解锁图案</string>
+    <string name="set_lock_pattern_step_tips">完成后松开手指</string>
+    <string name="title">标题</string>
+    <string name="title_activity_add_password">添 加</string>
+    <string name="title_activity_feedback">意见反馈</string>
+    <string name="title_activity_modify_password">修 改</string>
+    <string name="toast_export_failed">导出失败</string>
+    <string name="toast_key_back">再按一次 退出程序</string>
+    <string name="toast_password_has_deleted">该条密码已经被删除</string>
+    <string name="updata">修改</string>
+    <string name="update_password_group_name_hint">新的分组名</string>
+    <string name="user_name">账号:</string>
+    <string name="user_name_nomao">账号</string>
+    <string name="yes">是</string>
+</resources>

@@ -1,0 +1,58 @@
+[
+  {
+    "icon": "baidu",
+    "host": "百度",
+    "key": [
+      "bd",
+      "baidu",
+      "百度",
+      "度娘",
+      "百度云",
+      "baid"
+    ],
+    "color": "#4C87D9"
+  },
+  {
+    "icon": "tudou",
+    "host": "土豆",
+    "key": [
+      "td",
+      "tud",
+      "优酷土豆",
+      "番茄",
+      "potato"
+    ],
+    "color": "#E86E07"
+  },
+  {
+    "icon": "weixin",
+    "host": "微信",
+    "key": [
+      "weix",
+      "wx",
+      "微信",
+      "weixin"
+    ],
+    "color": "#7ABC17"
+  },
+  {
+    "icon": "xunlei",
+    "host": "迅雷",
+    "key": [
+      "xunlei",
+      "xunl",
+      "xunle",
+      "xlei",
+      "迅雷"
+    ],
+    "color": "#4C87D9"
+  },
+  {
+    "icon": "pan_kuaipan",
+    "host": "其他",
+    "key": [
+      "qita"
+    ],
+    "color": "#FFE67817"
+  }
+]

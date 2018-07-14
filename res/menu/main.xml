@@ -1,0 +1,70 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <group
+
+        android:id="@+id/g1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_my_collection"
+            android:icon="@drawable/ic_my_collection"
+            android:title="@string/action_my_collection" />
+    </group>
+    <group
+        android:id="@+id/g2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_import_and_export"
+            android:icon="@drawable/ic_action_import_export"
+            android:title="@string/action_import_and_export">
+            <!--<menu>-->
+            <!--<item-->
+            <!--android:id="@+id/action_export"-->
+            <!--android:icon="@drawable/ic_action_export"-->
+            <!--android:title="@string/export_to_sd">-->
+            <!--</item>-->
+            <!--<item-->
+            <!--android:id="@+id/action_import"-->
+            <!--android:icon="@drawable/ic_action_import"-->
+            <!--android:title="@string/import_form_sd">-->
+            <!--</item>-->
+            <!--</menu>-->
+        </item>
+    </group>
+    <group
+        android:id="@+id/g3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_about"
+            android:icon="@drawable/ic_action_about"
+            android:title="@string/action_about_us" />
+    </group>
+    <group
+        android:id="@+id/g4"
+        android:checkableBehavior="single">
+        <item
+
+            android:id="@+id/action_set_lock_pattern"
+            android:icon="@drawable/ic_action_lock"
+            android:title="@string/action_login_password" />
+
+        <!--<item-->
+        <!--android:id="@+id/action_set_effect"-->
+        <!--android:icon="@drawable/ic_action_effect"-->
+        <!--android:title="@string/action_jazzy_effect">-->
+        <!--</item>-->
+    </group>
+    <group
+        android:id="@+id/g5"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/action_exit"
+            android:icon="@drawable/ic_action_exit"
+            android:title="@string/action_exit"
+            />
+
+    </group>
+
+</menu>

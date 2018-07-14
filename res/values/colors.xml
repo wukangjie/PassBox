@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="app_background">#F8F8F8</color>
+    <color name="text_color">#7C7F89</color>
+    <color name="title_text_color">#A7A7AF</color>
+    <color name="line_color">#DDDADFE5</color>
+    <color name="title_color">#2C2B42</color>
+    <color name="copyright_color">#FFFFFF</color>
+    <color name="item_function_text_color">#333333</color>
+    <color name="name_color">#6E6E7F</color>
+    <color name="white">#FFFFFF</color>
+    <color name="item_function_bg_pressed">#7050B3FA</color>
+    <color name="item_group_bg_pressed">#555555</color>
+    <color name="item_group_divider">#404040</color>
+    <color name="kuaipan_login_btn_bg">#104E8B</color>
+    <color name="gray_color">#BBBBBB</color>
+    <color name="view_pager_line">#5CACEE</color>
+    <color name="setting_list_item_bg">#FFFFFF</color>
+    <color name="setting_list_item_pressed_bg">#D1D1D1</color>
+    <color name="item_key_txt_color">#1C1C1C</color>
+    <color name="item_section_bg">#F4F4F4</color>
+    <color name="item_value_txt_color">#7F7F7F</color>
+    <color name="dropbox_btn_pressed">#FF00689E</color>
+    <color name="dropbox_btn_normal">#FF018BD3</color>
+    <color name="xiaomi_btn_pressed">#FFAC5A11</color>
+    <color name="xiaomi_btn_normal">#FFE67817</color>
+    <color name="baidu_btn_pressed">#FF2459BE</color>
+    <color name="baidu_btn_normal">#FF3077FF</color>
+    <color name="kuaipan_btn_pressed">#bb035003</color>
+    <color name="kuaipan_btn_normal">#8860a000</color>
+    <color name="kuaipan_btn_disable">#88cccccc</color>
+    <color name="kuaipan_skip_btn_pressed">#324044</color>
+    <color name="kuaipan_skip_btn_normal">#43555b</color>
+    <color name="app_background_dark">#38484f</color>
+    <color name="checked_color">#4F903A</color>
+    <color name="uncheck_color">#42415A</color>
+    <color name="item_detail_note">#51161616</color>
+    <color name="default_shadow_color">#88757575</color>
+    <color name="default_fill_color">#ffffff</color>
+    <color name="list_selector_color">#5E9F50</color>
+    <color name="edit_pop_color">#3A3953</color>
+    <color name="list_cover_text">#A6C5EE</color>
+    <color name="list_selecter">#3A3953</color>
+    <color name="fragment_password_add_color">#54546C</color>
+    <color name="add_line">#178C9C</color>
+</resources>

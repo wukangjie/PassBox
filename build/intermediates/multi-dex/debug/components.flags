@@ -1,0 +1,97 @@
+-injars /Users/wukangjie/Desktop/bryan/passbox/PassBox/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar
+-outjars /Users/wukangjie/Desktop/bryan/passbox/PassBox/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /Users/wukangjie/Desktop/android-sdk-mac_x86/build-tools/23.0.1/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
+-dontwarn **
+-printconfiguration /Users/wukangjie/Desktop/bryan/passbox/PassBox/build/intermediates/multi-dex/debug/components.flags
+
+
+-keep class com.boguan.passbox.app.MyApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.umeng.update.net.DownloadingService {
+    <init>();
+}
+
+-keep class com.umeng.update.UpdateDialogActivity {
+    <init>();
+}
+
+-keep class com.boguan.passbox.activity.MainActivity {
+    <init>();
+}
+
+-keep class com.boguan.passbox.activity.EntryActivity {
+    <init>();
+}
+
+-keep class com.boguan.passbox.service.LocalService.MainService {
+    <init>();
+}
+
+-keep class com.boguan.passbox.activity.EditPasswordActivity {
+    <init>();
+}
+
+-keep class com.boguan.passbox.activity.SetLockpatternActivity {
+    <init>();
+}
+
+-keep class com.boguan.passbox.activity.AboutActivity {
+    <init>();
+}
+
+-keep class com.boguan.passbox.activity.FeedbackActivity {
+    <init>();
+}
+
+-keep class com.boguan.passbox.activity.PasswordActivity {
+    <init>();
+}
+
+-keep class com.boguan.passbox.activity.OauthActivity {
+    <init>();
+}
+
+-keep class com.boguan.passbox.activity.LoginKuaiPanActivity {
+    <init>();
+}
+
+-keep class com.boguan.passbox.activity.CloudOptionsActivity {
+    <init>();
+}
+
+-keep class com.boguan.passbox.activity.SettingsActivity {
+    <init>();
+}
+
+-keep class com.boguan.passbox.activity.PasswordDetailsActivity {
+    <init>();
+}
+
+-keep class com.boguan.passbox.activity.SearchActivity {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

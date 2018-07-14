@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_group">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/edit_pop_relative"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_pop_relativity_height"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="@dimen/item_margin"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/password_group"
+                    android:textSize="@dimen/edit_pop_text_size" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_un_up" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_height"
+                android:layout_marginLeft="6dp"
+                android:background="@color/text_color" />
+
+            <ListView
+                android:id="@+id/activity_edit_pop_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:listSelector="@color/list_selector_color"
+                android:overScrollMode="never"
+                android:windowSoftInputMode="adjustResize" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
